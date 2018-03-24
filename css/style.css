@@ -1,0 +1,207 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f3e5f5;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: auto;
+}
+
+.start {
+    display: flex;
+    width: 100%;
+}
+
+.udacityLogo {
+    width: 70%;
+}
+
+.name {
+    float: right;
+    width: 30%;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+img.logo {}
+
+article.name h1 {
+    margin: 0;
+    font-family: 'Saira Condensed', sans-serif;
+    color: #3f51b5;
+    font-weight: 800;
+    font-size: 30px;
+    width: 90%;
+}
+
+article.name p {
+    font-family: 'Saira Condensed', sans-serif;
+    margin: 0;
+    color: #ec407a;
+    font-size: 20px;
+    width: 90%;
+}
+
+hr {
+    display: flex;
+    background-color: #7d97ad;
+    height: 3px;
+    width: 98%;
+}
+
+.design {
+    background: url("http://www.nhancedigital.com/wp-content/uploads/2018/01/The-Web-Designing-Best-Web-Design-Company-In-udaipur.jpg") no-repeat;
+    background-size: 100% auto;
+    width: 100%;
+    height: 500px;
+    text-align: center;
+
+}
+
+.featured {
+    width: 100%;
+}
+
+
+.featured h1 {
+    font-family: 'Saira Condensed', sans-serif;
+    padding: 5px;
+    color: #3f51b5;
+    font-size: 35px;
+}
+
+.projects {
+    display: flex;
+    flex-wrap: wrap
+}
+
+.width_height {
+    width: 80%;
+    height: 200px;
+}
+
+.project1,
+.project2 {
+    margin-bottom: 25px;
+}
+
+.project1 img.animal {
+
+    border: 2px solid #2d3c49;
+}
+.project1:hover{
+    
+    transform: skewX(20deg);
+}
+
+.project1 h2,
+.project2 h2,
+.project3 h2 {
+    margin: 0;
+    font-family: 'Saira Condensed', sans-serif;
+    padding: 5px;
+}
+
+.project2 img.pixel {
+    border: 2px solid #2d3c49;
+}
+
+.project3 img.myWebsite {
+    border: 2px solid #2d3c49;
+}
+
+@media screen and (max-width:500px) {
+    .udacityLogo {
+        width: 70%;
+    }
+    article.name {
+        width: 30%;
+
+    }
+    article.name h1 {
+        font-size: 20px;
+    }
+    article.name p {
+        font-size: 15px;
+    }
+    .design {
+        width: 100%;
+        height: 210px;
+    }
+    .project1 {
+        width: 60%;
+        order: 0;
+        margin: auto;
+
+    }
+    .project2 {
+        width: 60%;
+        order: 1;
+        margin: auto;
+    }
+    .project3 {
+        width: 60%;
+        order: 2;
+        margin: auto;
+    }
+
+
+}
+
+@media screen and (max-width: 800px) and (min-width: 500px) {
+    .design {
+        width: 100%;
+        height: 320;
+    }
+    .project1 {
+        width: 40%;
+        order: 0;
+        margin: auto;
+
+    }
+    .project2 {
+        width: 40%;
+        order: 1;
+        margin: auto;
+    }
+    .project3 {
+        width: 40%;
+        order: 2;
+        margin: auto;
+    }
+}
+
+@media screen and (min-width:800px) {
+
+    .design {
+        width: 100%;
+
+    }
+    .projects {
+        width: 100%;
+        ;
+    }
+
+    .project1 {
+        width: 30%;
+
+    }
+    .project2 {
+        width: 33%;
+
+    }
+    .project3 {
+        width: 30%;
+
+    }
+
+}
